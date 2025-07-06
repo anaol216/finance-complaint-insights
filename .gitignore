@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+*.env
+
+# VSCode settings
+.vscode/
+
+# MacOS + Windows
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Data folders
+data/
+data/raw/
+data/processed/
+
+# MLflow and experiment artifacts
+mlruns/
+mlartifacts/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Docker
+*.pid
+*.sock
+docker-compose.override.yml
+
+# Pytest cache
+.pytest_cache/
+
+# Models
+models/
+*.pkl
+*.joblib
+*.h5

@@ -1,0 +1,30 @@
+# Core Data & ML
+pandas
+numpy
+scikit-learn
+xgboost
+matplotlib
+seaborn
+jupyter
+notebook
+
+# Feature Engineering
+xverse
+category_encoders
+woe
+
+# API Framework
+fastapi
+uvicorn[standard]
+pydantic
+
+# Model Tracking & MLOps
+mlflow
+
+# Testing & Linting
+pytest
+flake8
+black
+
+# Others
+python-dotenv
