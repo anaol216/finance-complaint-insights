@@ -1,30 +1,41 @@
-# Core Data & ML
+# Core Python Libraries
 pandas
 numpy
-scikit-learn
-xgboost
+
+# Visualization (for EDA)
 matplotlib
 seaborn
-jupyter
-notebook
 
-# Feature Engineering
-xverse
-category_encoders
-woe
+# Text Cleaning & Preprocessing
+nltk
+spacy
+beautifulsoup4
+tqdm
 
-# API Framework
-fastapi
-uvicorn[standard]
-pydantic
+# Sentence Embeddings
+sentence-transformers
 
-# Model Tracking & MLOps
-mlflow
+# Vector Store (RAG)
+faiss-cpu
+# Optional: chromadb
 
-# Testing & Linting
-pytest
-flake8
-black
+# RAG Framework / LLM Orchestration
+langchain
+openai
 
-# Others
+# Hugging Face Transformers (LLMs)
+transformers
+torch
+accelerate
+
+# Web UI Interface
+streamlit
+streamlit-chat  # Optional - nice chat UI element
+
+# Utility
 python-dotenv
+scikit-learn
+regex
+
+# Jupyter (optional - for dev only)
+jupyterlab
