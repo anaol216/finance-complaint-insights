@@ -13,8 +13,7 @@ env/
 venv/
 *.env
 
-# VSCode settings
-.vscode/
+
 
 # MacOS + Windows
 .DS_Store
