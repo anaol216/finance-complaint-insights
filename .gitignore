@@ -50,3 +50,7 @@ models/
 *.pkl
 *.joblib
 *.h5
+# Ignore vector index files
+vector_store/
+!vector_store/.gitignore
+.dvc/
