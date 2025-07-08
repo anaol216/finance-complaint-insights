@@ -50,3 +50,5 @@ models/
 *.pkl
 *.joblib
 *.h5
+vector_store/
+*.index
