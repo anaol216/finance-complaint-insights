@@ -24,7 +24,7 @@ Thumbs.db
 *.log
 
 # Data folders
-
+data/
 data/raw/
 data/processed/
 
@@ -51,3 +51,6 @@ models/
 *.joblib
 *.h5
 
+# Ignore vector index files
+vector_store/
+!vector_store/.gitignore
