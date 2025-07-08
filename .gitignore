@@ -24,7 +24,7 @@ Thumbs.db
 *.log
 
 # Data folders
-data/
+
 data/raw/
 data/processed/
 
@@ -50,5 +50,4 @@ models/
 *.pkl
 *.joblib
 *.h5
-vector_store/
-*.index
+
