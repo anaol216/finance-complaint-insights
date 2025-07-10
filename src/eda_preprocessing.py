@@ -8,7 +8,7 @@ import seaborn as sns
 class ComplaintDataProcessor:
     def __init__(self, filepath):
         self.filepath = filepath
-        self.df = None
+       
         
     def load_data(self):
         self.df = pd.read_csv(self.filepath)
@@ -32,13 +32,13 @@ class ComplaintDataProcessor:
         return self.df
     
     def plot_product_distribution(self):
-        sns.countplot(y=self.df['Product'], order=self.df['Product'].value_counts().index)
+        sns.countplot(y=self.df['Product'], order=self.df['Product'].value_counts().index) # type: ignore
         plt.title("Complaint Count per Product")
         plt.show()
     
     def plot_narrative_lengths(self):
         self.df['narrative_length'] = self.df['Consumer complaint narrative'].astype(str).apply(lambda x: len(x.split()))
-        sns.histplot(self.df['narrative_length'], bins=50, kde=True)
+        sns.histplot(self.df['narrative_length'], bins=50, kde=True) # type: ignore
         plt.title("Narrative Word Count Distribution")
         plt.show()
     
