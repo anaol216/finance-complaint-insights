@@ -9,7 +9,7 @@ st.title("CrediTrust Financial Complaint Assistant")
 st.markdown("Ask a question based on customer complaint data from financial products like credit cards, loans, and more.")
 
 # Input box
-query = st.text_area("📥 Enter your question:", placeholder="e.g., What are the most common issues with Buy Now Pay Later?", height=100)
+query = st.text_area("### Enter your question:", placeholder="e.g., What are the most common issues with Buy Now Pay Later?", height=100)
 
 # Buttons
 col1, col2 = st.columns([1, 1])
@@ -18,7 +18,7 @@ clear_clicked = col2.button("Clear")
 
 # Session state for clearing
 if clear_clicked:
-    st.experimental_rerun()  # type: ignore
+    st.rerun()  
 
 # Answer display
 if submit_clicked:
@@ -28,11 +28,11 @@ if submit_clicked:
         with st.spinner("Thinking... Please wait."):
             result = rag_answer(query)
 
-        st.markdown("### 🧠 Answer")
+        st.markdown("### Answer")
         st.success(result["answer"])
 
         st.markdown("---")
-        st.markdown("### 📄 Retrieved Source Chunks")
+        st.markdown("### Retrieved Source Chunks")
         for i, src in enumerate(result["sources"][:3], 1):
             st.markdown(f"**[{i}] Product:** {src.get('product', 'N/A')}")
             st.markdown(f"**Complaint ID:** {src.get('complaint_id', 'N/A')}")
