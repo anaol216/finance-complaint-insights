@@ -27,10 +27,12 @@ class ComplaintEmbedder:
             for i, chunk in enumerate(chunks):
                 self.chunks.append(chunk)
                 self.metadata.append({
-                    "complaint_id": row["Complaint ID"],
-                    "product": row["Product"],
-                    "chunk_index": i
-                })
+                "complaint_id": row["Complaint ID"],
+                "product": row["Product"],
+                "chunk_index": i,
+                "text": chunk  #Add this line
+            })
+
 
     def embed_chunks(self):
         return self.model.encode(self.chunks, show_progress_bar=True, convert_to_numpy=True)
@@ -40,7 +42,7 @@ class ComplaintEmbedder:
 
         dim = embeddings.shape[1]
         index = faiss.IndexFlatL2(dim)
-        index.add(embeddings)
+        index.add(embeddings) # type: ignore
 
         faiss.write_index(index, os.path.join(save_path, "faiss_index.index"))
 
