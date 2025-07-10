@@ -1,0 +1,27 @@
+{
+    "queries": [
+        {
+            "query": "What is the most common product in the complaints?",
+            "expected_result": "Credit card"
+        },
+        {
+            "query": "How many complaints are there for each product?",
+            "expected_result": {
+                "Credit card": 150,
+                "Mortgage": 100,
+                "Student loan": 50
+            }
+        },
+        {
+            "query": "What is the average length of a complaint?",
+            "expected_result": 200
+        },
+        {
+            "query": "Which complaint has the highest sentiment score?",
+            "expected_result": {
+                "Complaint ID": 12345,
+                "Sentiment Score": 0.95
+            }
+        }
+    ]
+}
