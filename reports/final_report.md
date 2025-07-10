@@ -1,3 +1,4 @@
+
 ---
 
 # 10 Academy: Artificial Intelligence Mastery
@@ -6,8 +7,8 @@ CrediTrust Financial Complaint Intelligence – INTERIM REPORT – Week 1 Challe
 Name: ANAOL ATINAFU
 Email: [atinafuanaol@gmail.com](mailto:atinafuanaol@gmail.com)
 Project: Intelligent Complaint Analysis for Financial Services
-Organization:  CrediTrust Financial / 10 Academy
-Date: July 6, 2025
+Organization: CrediTrust Financial / 10 Academy
+Date: July 10, 2025A
 
 ---
 
@@ -207,11 +208,11 @@ Answer:
 
 | Question | Generated Answer | Chunks Used | Score (1–5) | Comments |
 |----------|------------------|-------------|-------------|----------|
-| Why are people complaining about BNPL? | Late fees and refund delays | ✅ | 5 | Strong evidence |
-| What's the most common Credit Card issue? | Hidden fees and credit limit errors | ✅ | 4 | Good summary |
-| Are there complaints about fund delays? | Yes, mostly with transfers | ✅ | 5 | Relevant |
-| Do responses vary over time? | Not enough information | ❌ | 2 | Lacks temporal filtering |
-| Is customer service mentioned? | Not frequently | ✅ | 3 | Needs better context linking |
+| Why are people complaining about BNPL? | Late fees and refund delays  | 5 | Strong evidence |
+| What's the most common Credit Card issue? | Hidden fees and credit limit errors || 4 | Good summary |
+| Are there complaints about fund delays? | Yes, mostly with transfers  | 5 | Relevant |
+| Do responses vary over time? | Not enough information | 2 | Lacks temporal filtering |
+| Is customer service mentioned? | Not frequently || 3 | Needs better context linking |
 
 ---
 

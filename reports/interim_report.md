@@ -7,7 +7,7 @@ CrediTrust Financial Complaint Intelligence – INTERIM REPORT – Week 1 Challe
 Name: ANAOL ATINAFU
 Email: [atinafuanaol@gmail.com](mailto:atinafuanaol@gmail.com)
 Project: Intelligent Complaint Analysis for Financial Services
-Organization: MoonLight Energy Solutions / 10 Academy
+Organization: CrediTrust Financial / 10 Academy
 Date: July 6, 2025
 
 ---
